@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_DEPRECATE
+п»ї#define _CRT_SECURE_NO_DEPRECATE
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>
@@ -10,7 +10,7 @@ int main()
 
 	float A[N];
 	int counter1 = 0;
-	printf("Введите элементы массива:\n");
+	printf("Р’РІРµРґРёС‚Рµ СЌР»РµРјРµРЅС‚С‹ РјР°СЃСЃРёРІР°:\n");
 	for (int i = 0; i < N; i++) {
 		float temp;
 		printf("a[%d] = ", i + 1);
@@ -26,6 +26,6 @@ int main()
 		if (A[i] > 0) counter2++;
 	}
 
-	printf("Сумма всех элементов массива равна %.2f\n", sum);
+	printf("РЎСѓРјРјР° РІСЃРµС… СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР° СЂР°РІРЅР° %.2f\n", sum);
 	return 0;
 }
